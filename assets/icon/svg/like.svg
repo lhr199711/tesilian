@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>喜欢</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="icon" transform="translate(-156.000000, -80.000000)">
+            <g id="喜欢" transform="translate(156.000000, 80.000000)">
+                <polygon id="路径" points="0 0 32 0 32 32 0 32"></polygon>
+                <path d="M25.8911988,7.10833652 C28.6055481,9.82988573 28.6991464,14.1642048 26.1743935,16.9913521 L15.9985834,27.1815619 L5.82517328,16.9913521 C3.30042039,14.1642048 3.39521863,9.82268586 6.10836799,7.10833652 C8.82631727,4.39158722 13.1738361,4.30038892 16.0009834,6.83474163 C18.8197308,4.30398886 23.1756495,4.38798729 25.8911988,7.10833652 Z" id="形状" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

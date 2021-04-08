@@ -1,0 +1,183 @@
+// 全局样式
+@import url('./revant.less');
+
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+pre,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+legend,
+th,
+td,
+blockquote {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+}
+
+img,
+fieldset {
+  border: none
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-size: 100%
+}
+
+textarea {
+  overflow: auto
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+address,
+cite,
+dfn,
+em,
+var,
+i {
+  font-style: normal
+}
+
+li {
+  list-style: none
+}
+
+section,
+article,
+aside,
+header,
+footer,
+nav,
+dialog,
+figure {
+  display: block
+}
+
+/*html5*/
+pre {
+  word-wrap: break-word;
+  font-family: Arial;
+  zoom: 1;
+  white-space: pre-wrap
+}
+
+th {
+  text-align: left
+}
+
+ins {
+  text-decoration: none
+}
+
+html {
+  -webkit-text-size-adjust: none
+}
+
+/*解除chrome最小字体限制*/
+
+// html[data-dpr="2"] {
+//   body {
+//     font-size: 24px
+//   }
+// }
+
+// html[data-dpr="3"] {
+//   body {
+//     font-size: 36px
+//   }
+// }
+
+/*安全区适配*/
+.safe-area {
+  /* 兼容 iOS < 11.2 */
+  padding-bottom: constant(safe-area-inset-bottom);
+  /* 兼容 iOS >= 11.2 */
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.pl1 {
+  padding-left: 1vw !important;
+}
+
+.line {
+  border-bottom: 1px solid #fff;
+}
+
+.button {
+  height: 80px;
+  width: 400px;
+  //   width: 640px;
+  text-align: center;
+  line-height: 80px;
+  margin: 0 40px;
+  font-size: 24px;
+  border-radius: 16px;
+
+  &_cancel {
+    border: 2px solid #4D9BFF;
+    // border-image: linear-gradient(90deg, #4D9BFF 0%, #52BDFF 100%) 1;、
+    background: #0C1A29;
+    color: #50ADFF;
+  }
+
+  &_confirm {
+    border: 2px solid transparent;
+    background: linear-gradient(270deg, #52BDFF 0%, #4D9BFF 100%);
+    color: #fff;
+  }
+}
+
+/*初始化滚动条样式*/
+
+/*滚动条整体*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/*滚动条轨道*/
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+
+/*滚动条滑块*/
+::-webkit-scrollbar-thumb {
+  opacity: 0.2;
+  background: #FFFFFF;
+  border-radius: 4px;
+  border-radius: 4px;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

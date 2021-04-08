@@ -1,0 +1,236 @@
+// vantui 样式重置
+.v-form {
+  .van-field {
+    &__label {
+      margin-right: 0.33333rem;
+    }
+
+    &__button {
+      display: flex;
+      align-items: center;
+    }
+
+    &__control {
+      color: #fff;
+      font-size: 0.24615rem;
+    }
+
+    &__body {
+      border: 1px solid #fff;
+      padding: 0 0.21333rem;
+      height: 0.54167rem;
+    }
+
+    &__error-message {
+      position: absolute;
+      bottom: -21px;
+      color: #F05656;
+    }
+  }
+
+  .van-cell {
+    background: transparent;
+    align-items: center;
+    padding: 0 0 0.4rem 0;
+
+    &__title {
+      width: 1.6rem;
+      color: #fff;
+    }
+
+    &--required {
+      &::before {
+        content: '';
+        height: 4px;
+        width: 4px;
+        background: #F05656;
+        left: -1px;
+      }
+    }
+
+    &:after {
+      border-bottom: none;
+    }
+  }
+
+  .van-field--error {
+    .van-field__body {
+      border-color: #F05656;
+    }
+  }
+
+  .l-input {
+    width: auto;
+
+    .van-cell {
+      &__value {
+        width: 8.03333rem;
+        flex: none;
+      }
+    }
+  }
+
+  .m-input {
+    width: auto;
+
+    .van-cell {
+      &__value {
+        width: 3.33333rem;
+        flex: none;
+      }
+    }
+  }
+
+  .remark {
+    width: auto;
+
+    .van-cell {
+      &__value {
+        width: 5.33333rem;
+        flex: none;
+      }
+    }
+  }
+
+  .s-input {
+    width: auto;
+
+    .van-cell__value {
+      width: 2rem;
+      flex: none;
+    }
+  }
+
+  .nopd {
+    padding: 0;
+  }
+}
+
+.v-form-check {
+  .van-cell {
+    background: transparent;
+    align-items: center;
+    padding: 0 0 0.4rem 0;
+
+    &__title {
+      width: 1.6rem;
+      color: #fff;
+    }
+
+    &--required {
+      &::before {
+        content: '';
+        height: 4px;
+        width: 4px;
+        background: #F05656;
+        left: -1px;
+      }
+    }
+
+    &:after {
+      border-bottom: none;
+    }
+  }
+
+  .van-radio__label {
+    color: #fff;
+  }
+
+  .van-field {
+    &__label {
+      margin-right: 0.33333rem;
+    }
+
+    &__button {
+      display: flex;
+      align-items: center;
+    }
+
+    &__control {
+      color: #fff;
+      font-size: 0.24615rem;
+    }
+
+    &__body {
+      height: 0.54167rem;
+    }
+
+    &__error-message {
+      position: absolute;
+      bottom: -21px;
+      color: #F05656;
+    }
+  }
+}
+
+.error-pos {
+  .van-cell {
+    &--required {
+      &::before {
+        left: 0.85rem !important;
+      }
+    }
+  }
+}
+
+.error-four {
+  .van-cell {
+    &--required {
+      &::before {
+        left: 0.26667rem !important;
+      }
+    }
+  }
+}
+
+.error-name {
+  .van-cell {
+    &--required {
+      &::before {
+        left: 0.55rem !important;
+      }
+    }
+  }
+}
+
+.time-popup {
+  .van-picker {
+    background: transparent;
+
+    &__cancel,
+    &__confirm {
+      font-size: 0.24615rem;
+    }
+
+    &__cancel {
+      color: #fff;
+    }
+
+    &__confirm {
+      color: #50ADFF;
+    }
+
+    &__toolbar {
+      background: #000;
+      height: 52px;
+    }
+
+    &__title {
+      color: #fff;
+      font-size: 0.25rem;
+      line-height: normal;
+    }
+
+    &-column {
+      &__item {
+        color: #fff;
+      }
+    }
+
+    &__mask {
+      background-image:
+        linear-gradient(0deg, hsla(0, 0%, 0%, 0.9), hsla(0, 0%, 0%, 0.1)),
+        linear-gradient(180deg, hsla(0, 0%, 0%, 0.9), hsla(0, 0%, 0%, 0.1));
+    }
+  }
+}
